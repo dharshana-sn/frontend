@@ -3,7 +3,7 @@ import BackButton from "../components/BackButton";
 import Spinner from "../components/spinner";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
-import { useSnackbar } from "notistack";
+import {  useSnackbar } from 'notistack';
 
 const EditBooks = () => {
   const [title, setTitle] = useState("");
